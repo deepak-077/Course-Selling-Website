@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  body{
+    @apply bg-[#121212] text-white relative font-sans h-screen overflow-x-hidden
+  }
+}
+@theme{
+    --breakpoint-xs:460px;
+}
