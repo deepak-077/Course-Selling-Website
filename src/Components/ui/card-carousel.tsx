@@ -104,7 +104,7 @@ export const CardCarousel: React.FC<CarouselProps> = ({
                       <img
                         src={image.src}
                         alt={image.alt}
-                        className="w-[500px] h-[500px] rounded-xl object-cover"
+                        className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] rounded-xl object-cover"
                       />
                     </div>
                   </SwiperSlide>
@@ -115,7 +115,7 @@ export const CardCarousel: React.FC<CarouselProps> = ({
                        <img
                         src={image.src}
                         alt={image.alt}
-                        className="w-[500px] h-[500px] rounded-xl object-cover"
+                        className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] rounded-xl object-cover"
                       />
                     </div>
                   </SwiperSlide>

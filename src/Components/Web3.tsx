@@ -6,7 +6,7 @@ import FlipLink from './ui/text-effect-flipper';
 
 
 
-function Web3trial(){
+function Web3(){
 
     useEffect(()=>{
             AOS.init({
@@ -38,7 +38,7 @@ function Web3trial(){
 
                 </div>
 
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-4 mb-5'>
                     <FlipLink href="#"> Blockchain</FlipLink>
                     <FlipLink href="#"> Smart Contracts</FlipLink>
                     
@@ -57,4 +57,4 @@ function Web3trial(){
 
 }
 
-export default Web3trial;
+export default Web3;

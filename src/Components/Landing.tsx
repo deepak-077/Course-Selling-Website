@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'; 
 
-function Landing3(){
+function Landing(){
 
     useEffect(()=>{
             AOS.init({
@@ -62,4 +62,4 @@ function Landing3(){
 
 }
 
-export default Landing3;
+export default Landing;

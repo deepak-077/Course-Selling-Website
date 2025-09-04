@@ -26,7 +26,7 @@ function Devops(){
             {/* left component */}
             {/* left component */}
             <div className='flex flex-col items-center w-1/2 gap-6 '>
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-4 mb-5'>
                     <FlipLink href="#"> DEVOPS</FlipLink>
                 </div>
 

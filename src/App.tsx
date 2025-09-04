@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
-import Landing3 from './Components/Landing3'
-import Web3trial from './Components/Web3trail'
+import Landing from './Components/Landing'
+import Web3 from './Components/Web3'
 import ML from './Components/ML'
 import Reviews from './Components/Reviews'
 import Devops from './Components/Devops'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <main>
@@ -19,10 +18,8 @@ function App() {
       <div className='h-0 w-[80vw] max-w-[640px] absolute top-[20%] right-[-5%] shadow-[0_0_900px_20px_#e99b63] -rotate-[30deg] -z-10' />
       
       <Header/>
-      <Landing3/>
-      
-      <Web3trial/>
-      
+      <Landing/>
+      <Web3/>
       <ML/>
       <Devops/>
       <Reviews/>
